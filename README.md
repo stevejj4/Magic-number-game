@@ -1,35 +1,22 @@
-Magic Number Game
+# 🎯 Magic Number Game
 
-A simple Java console game where the player tries to guess a magic number hidden within a predefined list.
-The game provides feedback for each attempt and gives the player an option to quit after three failed tries.
+A simple yet fun **Java console game** where players try to guess a hidden *magic number* from a predefined list.  
+The game provides instant feedback after each attempt and lets the player **quit** or **retry** after multiple failed guesses.
 
-🧩 Features
+---
 
-✅ Predefined list of “magic numbers”
+## 🧩 Features
 
-🎮 User input via console
+✅ **Predefined list of magic numbers**  
+🎮 **Interactive console-based gameplay**  
+🔁 **Up to 3 attempts per round**  
+🚪 **Option to quit or retry after failed attempts**  
+✨ **Friendly and motivational feedback messages**
 
-🔁 Up to 3 tries per round
+---
 
-🚪 Option to quit or retry after failed attempts
+## 🧠 How It Works
 
-✨ Friendly and interactive console messages
-
-🧠 How It Works
-
-The program randomly selects from an array of numbers, e.g. {20, 40, 50, 60, 70}.
-
-The player is asked to guess a number.
-
-If the number is in the array:
-
-The game congratulates the player:
-✨ Congratulations! <number> is a magic number!
-
-If the guess is wrong:
-
-The player is told how many tries remain.
-
-After three wrong attempts:
-
-The player can type "quit" to end the game or "retry" to start again
+1. The program contains a predefined array of numbers:
+   ```java
+   int[] numbers = {20, 40, 50, 60, 70};
